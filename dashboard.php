@@ -49,7 +49,6 @@ $messagesClass = new MessagesClass($pdo);
         src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js">
     </script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style2.css" />
     <link rel="stylesheet" href="css/uikit.min.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
@@ -67,7 +66,7 @@ $messagesClass = new MessagesClass($pdo);
 
 <body>
     <img src="bg1.jpg" class="foto" alt="">
-    <div class="uk-position-center" style=" width: 200%; ">
+    <div class="uk-position-center" style=" width: 100%; ">
 
         <div class="container-fluid h-100 uk-animation-fade">
             <div class="row justify-content-center h-100 ">
@@ -146,7 +145,7 @@ $messagesClass = new MessagesClass($pdo);
                             <div class="d-flex justify-content-end mb-4">
                                 <span></span>
                                 <div class="msg_cotainer">
-                                    <h4 class="non-uikit" align="right"><?= $message->nickname ?></h4>
+                                    <h4 style="font-size : 15px;" class="non-uikit" align="right"><?= $message->nickname ?></h4>
                                     <p><?= $message->content ?></p>
                                 </div>
                                 <div class="img_cont_msg">
@@ -166,7 +165,7 @@ $messagesClass = new MessagesClass($pdo);
                                         class="rounded-circle user_img_msg">
                                 </div>
                                 <div class="msg_cotainer ">
-                                    <h4 class="non-uikit" align="left"><?= $message->nickname ?></h4>
+                                    <h4  style="font-size : 15px; class="non-uikit" align="left"><?= $message->nickname ?></h4>
                                     <p><?= $message->content ?></p>
 
                                 </div>
