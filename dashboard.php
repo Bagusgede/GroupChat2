@@ -82,7 +82,7 @@ $messagesClass = new MessagesClass($pdo);
                                             <img src="bg1.jpg" class="rounded-circle user_img">
                                         </div>
                                         <div class="user_info">
-                                            <span>Skeensa KC</span>
+                                            <span>GROUP PANTE'Q</span>
                                             <p id="bind-typing">You,<?php
                         $i = 1;
                         $total = count($listUsers);
