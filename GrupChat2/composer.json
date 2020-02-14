@@ -1,0 +1,13 @@
+{
+  "name": "bagusgede/grupchat",
+  "description": "meluncur",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "pusher/pusher-php-server": "^4.1"
+
+  }
+}
